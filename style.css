@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+
+}
+
+header {
+    height: 30px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    a {
+        width: 174px;
+        display: flex;
+        justify-content: center;
+        gap: 4.36px;
+        span{
+            font-size: 19.85px;
+            font-weight: 600;
+            color: #C92071;
+            font-style: initial;
+        }
+    }
+}
