@@ -6,8 +6,7 @@
 }
 
 header {
-    height: 30px;;
-
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +26,7 @@ header {
 }
 
 main{
-    background-color: linear-gradient(# #);
+    background: linear-gradient(#EFEFFF, #B5B6F2);
     padding: 63px 30px 80px;
 
     form {
@@ -41,7 +40,6 @@ main{
         .title {
             h1{
                 font-size: 22px;
-                font-weight: 700;
                 line-height: 34px;
                 letter-spacing: 2px;
                 text-align: center;
@@ -50,11 +48,12 @@ main{
        
             p {
                 font-size: 14px;
-                text-align: center ;
+                line-height: 24px;
+                text-align: center;
                 letter-spacing: .25px;
-                color: #474747
-
-                a{
+                color: #474747;
+                
+                a { 
                     text-decoration: underline;
                     color:#474747;
                 }
@@ -64,31 +63,33 @@ main{
         }
         
         .inputs{
-                display:flex
-                flex-direction: column
+                display: flex;
+                flex-direction: column;
                 gap: 20px;
 
                 div {
                     display: flex;
                     flex-direction: column;
-                    gap:5px;
+                    gap: 5px;
 
                     label {
                         font-size: 12px;
                         font-weight: 700;
                         line-height: 24px;
                         letter-spacing: .75px;
-                        color:#474747
+                        color:#474747;
 
 
 
                     }
-                    input{
-                        height: 60px;
+                    input {
+                        
                         border: none;
                         border-radius: 8px;
                         background-color:#4747470a;
                         padding: 16px 13px;
+                        line-height: 28px;
+                        font-size: 16px;
                         
                     }
                 }
